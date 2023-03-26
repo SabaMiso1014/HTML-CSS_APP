@@ -1,0 +1,43 @@
+<!-- aタグ -->
+<a href="a.shtml">相対パスでリンクします</a><br>
+<a href="http://www.htmq.com/html/a.shtml">絶対パスでリンクします</a><br>
+<a href="../index.htm">ひとつ上のディレクトリへ</a><br>
+<a href="mailto:info@htmq.com">メール</a><br>
+<a href="../index.htm"><img src="../images/logo.gif" border="0"></a><br>
+
+<!-- mapタグ -->
+<img border="0" src="sample/area.gif" usemap="#sample" alt="サンプル" width="384" height="128">
+<map name="sample">
+    <area href="area.htm" shape="rect" alt="四角形" coords="15,19,126,104">
+    <area href="area.htm" shape="circle" alt="円形" coords="197,69,54">
+    <area href="area.htm" shape="poly" alt="多角形" coords="306,12,261,109,378,92">
+</map>
+
+<!-- areaタグ -->
+<img border="0" src="sample/area.gif" usemap="#sample" alt="サンプル" width="384" height="128">
+<map name="sample">
+    <area href="aaa.htm" shape="rect" alt="四角形" coords="15,19,126,104">
+    <area href="bbb.htm" shape="circle" alt="円形" coords="197,69,54">
+    <area href="ccc.htm" shape="poly" alt="多角形" coords="306,12,261,109,378,92">
+</map>
+
+<!-- baseタグ -->
+<html>
+    <head>
+        <base href="http://www.htmq.com/html/base.htm" target="_self">
+    </head>
+    <body>
+        <a href="../index.htm">トップページへ</a>
+    </body>
+</html>
+
+<!-- headタグ -->
+<head>	 
+    <title>文書番号002</title>	 
+    <link rel="index" href="../index.htm">	←indexページとの関係
+    <link rel="contents" href="mokuji.htm">	←目次ページ
+    <link rel="search" href="kensaku.html">	←検索ページ
+    <link rel="help" href="help.html">	←ヘルプページ
+    <link rel="prev" href="001.htm">	←前のページ
+    <link rel="next" href="003.htm">	←次のページ
+</head>

@@ -1,0 +1,25 @@
+/* margin */
+p.sample1 {background-color: #f8dce0; margin: 10px;}
+p.sample2 {background-color: #f8dce0; margin: 10px; padding: 10px;}
+p.sample3 {background-color: #f8dce0; margin: 10px 20px;}
+p.sample4 {background-color: #f8dce0; margin: 10px 20px 30px;}
+p.sample5 {background-color: #f8dce0; margin: 10px 20px 30px 40px;}
+
+/* margin-top */
+p.sample1 {background-color: #f8dce0; margin-top: 50px;}
+
+/* margin-bottom */
+p.sample1 {background-color: #f8dce0; margin-bottom: 50px;}
+
+/* margin-left */
+p.sample1 {background-color: #f8dce0; margin-left: 50px;}
+
+/* margin-right */
+p.sample1 {background-color: #f8dce0; margin-right: 50px;}
+
+/* padding */
+p.sample1 {background-color: #f8dce0; padding: 10px;}
+p.sample2 {background-color: #f8dce0; margin: 30px; padding: 10px;}
+p.sample3 {background-color: #f8dce0; padding: 10px 20px;}
+p.sample4 {background-color: #f8dce0; padding: 10px 20px 30px;}
+p.sample5 {background-color: #f8dce0; padding: 10px 20px 30px 40px;}

@@ -1,0 +1,67 @@
+/* ボーダー */
+p.sample1 {border: double 10px #0000ff;}
+p.sample2 {border: inset 10px #ff0000;}
+p.sample3 {
+margin: 30px 30px;
+padding: 10px;
+border: medium solid #ff00ff;
+}
+
+/* ボーダーカラー */
+p.sample1 {border-style: solid; border-color: red;}
+p.sample2 {border-style: solid; border-color: #ff0000;}
+p.sample3 {border-style: solid; border-color: #ff0000 #00ff00;}
+p.sample4 {border-style: solid; border-color: #ff0000 #00ff00 #0000ff;}
+p.sample5 {border-style: solid; border-color: #ff0000 #00ff00 #0000ff #ff00ff;}
+
+/* ボーダースタイル */
+p.sample1 {border-style: none;}
+p.sample2 {border-style: hidden;}
+p.sample3 {border-style: solid;}
+p.sample4 {border-style: double;}
+p.sample5 {border-style: groove;}
+p.sample6 {border-style: ridge;}
+p.sample7 {border-style: inset;}
+p.sample8 {border-style: outset;}
+p.sample9 {border-style: dashed;}
+p.sample10 {border-style: dotted;}
+p.sample11 {border-style: solid double;}
+p.sample12 {border-style: solid double groove;}
+p.sample13 {border-style: solid double groove ridge;}
+
+/* overflow */
+p.sample {
+	width: 200px; height: 50px;
+	background-color: yellowgreen; 
+}
+
+/* position */
+p.sample {height:50px; background-color:#00ff00; font-weight:bold; position:relative }
+span.sample1 {color:#ff0000; position:static; top:10px; left:10px }
+span.sample2 {color:#ff0000; position:relative; top:10px; left:10px }
+span.sample3 {color:#ff0000; position:absolute; top:10px; left:10px }
+span.sample4 {color:#ff0000; position:fixed; top:10px; left:10px }
+
+/* top, bottom */
+div.sample {width:200px; height:150px; position:relative;}
+span.sample1 {position:absolute; top:10px; left:10px;}
+span.sample2 {position:absolute; bottom:10px; right:10px;}
+
+/* content */
+p.sample1:before {content: "●サンプル●" }
+p.sample2:after {content: url("../images/ico32.gif") }
+
+/* outline */
+input.sample1 {outline: solid 1px #0000ff;}
+input.sample2 {outline: double 2px #ff0000;}
+input.sample3 {outline: groove 3px #ff0000;}
+input.sample4 {outline: inset 4px #ffff00;}
+input.sample5 {outline: dotted 5px invert;}
+
+/* layout-grid */
+p.sample {
+	background-image:url("images/bggrid.gif");
+	width:600px; margin-top:0;
+	font-size:20px;
+	layout-grid:both fixed 40px 40px;
+}
